@@ -254,8 +254,8 @@
 				{
 					unset ($_SESSION['Cart']); 
 					$_SESSION['counter'] = 0; 
-    				echo "<script>window.location.href = window.location.href;</script>"; // this allows for the window to refresh so the cart is now empty and items aren't there 
-    				exit();
+    					echo "<script>window.location.href = window.location.href;</script>"; // this allows for the window to refresh so the cart is now empty and items aren't there 
+    					exit();
 				}
 			?>
 		</div>
